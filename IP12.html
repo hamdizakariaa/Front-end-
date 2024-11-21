@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="home.css" />
+    <script src="home.js"></script>
+
+    <title>E-commerce</title>
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"
+        ><img src="font/logo.png" class="logo" width="80px" height="70px"
+      /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="home.html">Home</a></li>
+          <li><a class="active" href="phones.html">Phones</a></li>
+          <li><a href="watches.html">Watches|Headphone</a></li>
+          <li><a href="account.html">Account</a></li>
+          <li>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping" id="bag"></i></a>
+          </li>
+          <a href="#" id="close"
+            ><i class="fa-duotone fa-solid fa-xmark"></i
+          ></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        <i class="fa-duotone fa-solid fa-bars"></i>
+      </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+      <div class="single-img">
+        <img src="images/iphone/iphone 12.png" width="100%" id="mainImg" />
+        <div class="small-imgs-group">
+          <div class="small-img-col">
+            <img src="images/iphone/iphone 12.png" width="100%" class="small-img" />
+          </div>
+          <div class="small-img-col">
+            <img src="images/iphone/12-r.png" width="100%" class="small-img" />
+          </div>
+          <div class="small-img-col">
+            <img src="images/iphone/12-v.png" width="100%" class="small-img" />
+          </div>
+        </div>
+      </div>
+
+      <div class="product-details">
+        <h4>iPhone 12</h4>
+        <h2>$350</h2>
+        <select>
+          <option>Blue</option>
+          <option>Red</option>
+          <option>Violet</option>
+        </select>
+        <input type="number" value="1" />
+        <button class="normal">Add To Cart</button>
+        <h4>Product Details</h4>
+        <span>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. In id odit
+          voluptate quod nisi eius, corporis doloribus nemo voluptates accusamus
+          quis quam, vero harum dicta ut impedit distinctio labore vel.
+        </span>
+      </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+      <h2 id="explore" class="title">Featured Product</h2>
+      <div class="container">
+        <div class="pro" onclick="window.location.href='IP15.html';">
+          <img src="images/iphone/phone 15 pro.png">
+          <div class="des">
+            <h5>iPhone 15 pro</h5>
+            <div class="star">
+              <i class="fas fa-star star1"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$1800</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+          </div>
+
+        <div class="pro" onclick="window.location.href='SA21.html';">
+          <img src="images/samsung/s21.png">
+          <div class="des">
+            <h5>Samsung S21</h5>
+            <div class="star">
+              <i class="fas fa-star star1"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$370</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+          </div>
+
+        <div class="pro" onclick="window.location.href='nordce3.html';">
+          <img src="images/oneplus/nord ce3.png">
+          <div class="des">
+            <h5>OnePlus Nord CE3</h5>
+            <div class="star">
+              <i class="fas fa-star star1"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$375</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+          </div>
+
+        <div class="pro" onclick="window.location.href='gt3.html';">
+          <img src="images/watches/gt3.png">
+          <div class="des">
+            <h5>Huawei GT3</h5>
+            <div class="star">
+              <i class="fas fa-star star1"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$60</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+          </div>
+          
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p>
+          Get E-mail updates about our latest shop and
+          <span>special offers</span>
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your E-mail address" />
+        <button class="normal">Sign Up</button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="font/logo.png" width="80px" height="80px" />
+        <h4>Contact</h4>
+        <p><strong>Address: </strong>Lorem amet Quibusdam, dignissimos</p>
+        <p><strong>Phones: </strong>+212 66 606 6060</p>
+        <p><strong>Hours: </strong>10:00 - 23:00 <span>7/7</span></p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">terms & conditions</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">Sign up</a>
+        <a href="#">Track my order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col">
+        <h4>Install App</h4>
+        <p>From App Store and Google Play</p>
+        <div class="row">
+          <img src="images/play-store.png" width="130" />
+          <img src="images/app-store.png" width="130" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <div>
+          <img src="images/mastercard.png" width="70px" />
+          <img src="images/visa.png" width="70px" />
+        </div>
+      </div>
+    </footer>
+
+
+    <script>
+      var mainImg = document.getElementById("mainImg");
+      var smallImg = document.getElementsByClassName("small-img");
+
+      smallImg[0].onclick = function fun() {
+        mainImg.src = smallImg[0].src;
+      }
+      smallImg[1].onclick = function fun() {
+        mainImg.src = smallImg[1].src;
+      }
+      smallImg[2].onclick = function() {
+        mainImg.src = smallImg[2].src;
+      }
+    </script>
+
+
+  </body>
+</html>
